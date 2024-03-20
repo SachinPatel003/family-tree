@@ -7,6 +7,7 @@ export const screenNames = {
   Matrimony:'Matrimony',
   FamilyTree:'Family Tree',
   Setting:'Setting',
+  RegistrationForm:'Registration Form',
   Post: 'Post',
   Feed1:"Feed1",
   Feed2:"Feed2",

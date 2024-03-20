@@ -1,8 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { AppStack, AuthStack } from "./Routes";
-// import { getUserAuthInfo } from "../utils/asyncStorage";
-// import { useDispatch } from "react-redux";
-// import { updateAuthInfo } from "../Store/Slices/AuthenticationSlice";
 import * as WebBrowser from "expo-web-browser";
 import * as Google from "expo-auth-session/providers/google";
 import {

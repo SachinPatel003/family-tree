@@ -6,6 +6,7 @@ import BottomTabNavigation from "./BottomTabNavigation";
 import ProfileScreen from "../Screens/Profile/ProfileScreen";
 import FamilyTree from "../Screens/FamilyTree/FamilyTree";
 import SettingScreen from "../Screens/Setting/SettingScreen";
+import RegistrationForm from "../Screens/RegistrationForm/RegistrationForm";
 
 const Drawer = createDrawerNavigator();
 
@@ -20,6 +21,10 @@ const DrawerNavigation = () => {
       <Drawer.Screen name={screenNames.Profile} component={ProfileScreen} />
       <Drawer.Screen name={screenNames.FamilyTree} component={FamilyTree} />
       <Drawer.Screen name={screenNames.Setting} component={SettingScreen} />
+      <Drawer.Screen
+        name={screenNames.RegistrationForm}
+        component={RegistrationForm}
+      />
     </Drawer.Navigator>
   );
 };
